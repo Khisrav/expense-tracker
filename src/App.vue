@@ -7,6 +7,7 @@ import NewTransaction from "./components/NewTransaction.vue";
 import Transaction from "./components/Transaction.vue";
 import ActionButtons from "./components/ActionButtons.vue";
 import { useTracker } from "./stores";
+import UserHeader from "./components/UserHeader.vue";
 
 // const transactions = ref(initTracker());
 const operations = useTracker();
@@ -35,6 +36,8 @@ function selectTransaction(id) {
 
 <template>
   <div class="container m-auto dark:bg-black">
+    <UserHeader />
+
     <Balance :balance="operations.balance" />
 
     <IncomeExpenses :income="operations.income()" :expenses="operations.expenses()" />
