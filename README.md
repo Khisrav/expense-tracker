@@ -17,7 +17,7 @@ A web-based expense tracking application built with modern web technologies.
 - Integrate with Telegram Web App for notifications and sharing
 - Add more features to make the application more useful
 
-Contributing
+## Contributing
 Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request.
 ## Demo
 
