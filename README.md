@@ -8,7 +8,7 @@ A web-based expense tracking application built with modern web technologies.
 - Telegram Web App integration
 
 ## Tech Stack
-- HTML5
+- HTML5/CSS3
 - Vue 3 + Vite
 - Material Tailwind (for UI components)
 - Telegram Web App
